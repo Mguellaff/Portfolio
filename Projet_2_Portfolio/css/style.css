@@ -1,0 +1,29 @@
+.image {
+    border-radius: 50%;
+    width: 30px;
+    display: flex;
+    float: left;
+}
+
+header {
+    border-bottom: 1px black solid;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    list-style-type: none;
+}
+
+body {
+    background-image: url("images/bandeau.jpg");
+    background-size: 50px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "pixel";
+    src: url("/font/PixelatedDisplay.ttf");
+}
