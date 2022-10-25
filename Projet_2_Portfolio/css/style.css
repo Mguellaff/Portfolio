@@ -1,9 +1,10 @@
 .image {
     border-radius: 50%;
-    width: 80px;
+    width: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
 header {
@@ -15,7 +16,7 @@ ul {
     padding: 0; 
     list-style: none; 
     display: table;
-    width: 1400px;
+    width: 1300px;
     text-align: center;
   }
   li { 
@@ -74,7 +75,6 @@ header a {
 
 .droite {
     display: inline;
-    margin-left: 900px;
 }
 
 .france {
@@ -89,6 +89,7 @@ header a {
 
 #france {
     display: inline;
+    margin-right: 25px;
 }
 
 #lieu {
@@ -103,8 +104,12 @@ header a {
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
+    background: rgba(179, 137, 137, 0.5);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+  }
+
+  .button {
+    background: transparent;
+    font-size: 0;
   }
